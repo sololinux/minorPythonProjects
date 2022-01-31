@@ -1,7 +1,7 @@
 #Program to get domain information
 import whois as w
 
-#Check the domain is registered or not and return as bool
+#Check the domain is registered or not and return boolen value
 def resCheck(_domain_):
 	try:
 		reg = w.whois(_domain_)
